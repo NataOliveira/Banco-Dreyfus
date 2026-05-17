@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreyfusBank</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <div class="ladoesquerdo">
+
+                <h1 class="logodiv">
+                    <img src="img/2.png" width="250px" height="250px" alt="Dreyfus Bank">
+                </h1>
+
+            </div>
+            <div class="ladodireito">
+        
+                <div class="conteiner">
+                    <div class="titulo">
+                        <h2>Bem-vindo de volta</h2>
+                        <p>Entre com suas credenciais para continuar</p>
+                    </div>
+                    <div>
+                        <form  class="login" action="#">
+
+                            <div class="formulario">
+                                <label for="cpf">CPF ou e-mail:</label>
+                                <input type="text" id="nome" name="nome" placeholder="000.000.000-00" required oninvalid="this.setCustomValidity('Por favor, preencha este campo.')" oninput="this.setCustomValidity('')">
+                            </div>
+
+                            <div class="formulario">
+                                <label for="senha">Senha:</label>
+                                <input type="password" id="senha" name="senha" placeholder="Digite sua Senha" required oninvalid="this.setCustomValidity('Por favor, preencha este campo.')" oninput="this.setCustomValidity('')">
+                            </div>
+                            
+                            <div class="remember">
+                                <label class="lembrar"><input type="checkbox">Lembrar acesso</label>
+                                <a href="#">Esqueci a senha</a>
+                            </div>
+                            
+                            <button type="submit">Entrar</button>
+                        </form>       
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+    </main>
+</body>
+</html>

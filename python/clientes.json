@@ -1,0 +1,42 @@
+[
+    {
+        "ID": 1,
+        "Nome": "pricila",
+        "CPF": 15,
+        "Renda": 9500.0,
+        "Profissao": "manicure",
+        "Endereco": "av guaiapo, residencial tuiuti, maringa, pr",
+        "Score": 780,
+        "Senha": 123
+    },
+    {
+        "ID": 2,
+        "Nome": "Felipe",
+        "CPF": 76,
+        "Renda": 3500.0,
+        "Profissao": "baterista",
+        "Endereco": "rua bacabau 13,zona 3, maringa ,pr",
+        "Score": 400,
+        "Senha": "f8765892"
+    },
+    {
+        "ID": 3,
+        "Nome": "Mashiro",
+        "CPF": 1546932587,
+        "Renda": 5000.0,
+        "Profissao": "Bombeiro",
+        "Endereco": "Rua Palmares, Recife ,Pe",
+        "Score": 750,
+        "Senha": "Bashiro123"
+    },
+    {
+        "ID": 4,
+        "Nome": "Jack",
+        "CPF": "980",
+        "Renda": 29000.0,
+        "Profissao": "engenheiro",
+        "Endereco": "Av.America, zona 09, Maringa,pr",
+        "Score": 890,
+        "Senha": "Jack123"
+    }
+]
