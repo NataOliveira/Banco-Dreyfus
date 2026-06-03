@@ -27,7 +27,4 @@ def cadastro ():
     "Senha": senha, 
 }
 
-    #Inserir novo cliente a lista
-    
-
     return novo_cliente
